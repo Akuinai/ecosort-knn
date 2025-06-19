@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.videoView {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Standaard groene kleur */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Donkere groene tinten voor de train knoppen */
+.trainButton {
+    background-color: #388E3C; /* Donkerder groen */
+}
+
+.trainButton:hover {
+    background-color: #2C6B2F; /* Nog donkerder groen voor hover effect */
+}
+
+#prediction {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#webcamButton {
+    background-color: #00796B; /* Webcam knop iets andere kleur */
+}
+
+#webcamButton:hover {
+    background-color: #004D40;
+}

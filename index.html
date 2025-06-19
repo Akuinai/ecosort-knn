@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EcoSort – Spel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <h1>♻️ EcoSort – Play the sorting game</h1>
+
+    <div class="game">
+        <p><strong>Afval:</strong> <span id="afvalItem">Druk op start!</span></p>
+        <p><strong>Score:</strong> <span id="score">0</span></p>
+        <p id="feedback"></p>
+        <button id="startGameButton">Start Spel</button>
+    </div>
+
+    <div class="videoView">
+        <video id="webcam" autoplay></video>
+        <canvas id="output_canvas"></canvas>
+    </div>
+
+    <div class="result">
+        <p>Herkenning: <span id="prediction">🤖</span></p>
+    </div>
+</div>
+
+<script type="module" src="main-game.js"></script>
+<script type="module" src="game.js"></script>
+</body>
+</html>
