@@ -84,8 +84,8 @@ button {
 }
 
 .uitleg ul {
-    list-style: none;
-    padding-left: 0;
+    list-style: none !important;
+    padding-left: 0 !important;
 }
 
 .uitleg li {
